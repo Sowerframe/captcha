@@ -1,0 +1,26 @@
+{
+    "name": "sower/captcha",
+    "description": "captcha",
+    "authors": [
+    ],
+    "license": "Apache-2.0",
+    "require": {
+    	"php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sower\\captcha\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "sower": {
+            "services": [
+                "sower\\captcha\\CaptchaService"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
